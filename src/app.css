@@ -1,0 +1,67 @@
+:root {
+    --title-font-size: 1.5rem;
+    --normal-font-size: 0.9rem;
+
+}
+
+.main {
+    height: 100vh;
+    overflow: hidden;
+    padding: 1rem;
+}
+
+.title {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: var(--title-font-size);
+}
+
+.btn-content {
+    position: relative;
+}
+.language {
+    position: absolute;
+    left: -1.5rem;
+    top: calc(50% - 0.26rem);
+    font-size: 0.5rem;
+}
+
+.btn {
+    width: 5rem;
+    height: 2rem;
+    background-color: rgb(86, 86, 209);
+    border: none;
+    color: #fff;
+    border-radius: 4px;
+    font-size: var(--normal-font-size);
+}
+
+.input-content {
+    margin-top: 2rem;
+    display: flex;
+    height: 2rem;
+    line-height: 2rem;
+    font-size: var(--normal-font-size);
+}
+
+.input-title {
+    width: 30%;
+}
+.input-content input {
+    width: 70%;
+    padding: 10px;
+}
+
+.translate-result-content {
+    margin-top: 2rem;
+    min-height: 4rem;
+    line-height: 1.5;
+    font-size: var(--normal-font-size);
+}
+
+.statistics-content {
+    margin-top: 2rem;
+    font-size: var(--normal-font-size);
+}
